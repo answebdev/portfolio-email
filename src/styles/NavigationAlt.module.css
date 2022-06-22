@@ -1,0 +1,212 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  width: 100%;
+  background-color: #fff !important;
+  margin-bottom: 1rem;
+
+  padding: 1em 1em;
+}
+
+.NavTitle {
+  font-family: 'Oxygen', sans-serif;
+  color: #000;
+  font-size: 28px;
+  letter-spacing: 0.1em;
+  padding-bottom: 0.5em;
+  margin-top: 2.5px;
+  text-transform: uppercase;
+}
+
+ul {
+  padding: 0 16px 0 0;
+}
+
+ol,
+ul {
+  padding-left: 0;
+}
+
+.Links {
+  margin-bottom: -15px;
+  float: inherit;
+  color: #000 !important;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 0.14em;
+}
+
+.Links a,
+.Title {
+  color: #000 !important;
+  text-decoration: none !important;
+  background-color: transparent;
+  padding: 0 10px;
+}
+
+.Navbar ul {
+  display: flex;
+}
+
+.Navbar li {
+  list-style: none;
+}
+
+.Navbar a {
+  color: #000;
+  font-size: 18px;
+  margin: 0 0.25rem;
+  margin-bottom: -30px;
+  padding: 10px;
+}
+
+/* ALTERNATE NAVBAR HOVER EFFECT: https://codepen.io/pen/ */
+.PageLink {
+  position: relative;
+  color: #000;
+}
+
+.PageLink:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.PageLink:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* ===== MEDIA QUERIES ===== */
+
+@media screen and (min-width: 981px) and (max-width: 1200px) {
+  .NavTitle {
+    padding-bottom: 0.5em;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 980px) {
+  .NavTitle {
+    padding-bottom: 0.5em;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 768px) {
+  .Navbar {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .NavTitle {
+    margin-top: -10px;
+    margin-bottom: -30px;
+  }
+
+  .Navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 640px) {
+  .Navbar {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .NavTitle {
+    margin-top: -10px;
+    margin-bottom: -30px;
+  }
+
+  .Navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 471px) and (max-width: 550px) {
+  .Navbar {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .NavTitle {
+    margin-top: -10px;
+    margin-bottom: -30px;
+  }
+
+  .Navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 431px) and (max-width: 470px) {
+  .Navbar {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .NavTitle {
+    margin-top: -10px;
+    margin-bottom: -30px;
+  }
+
+  .Navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 430px) {
+  .Navbar {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .NavTitle {
+    margin-top: -10px;
+    margin-bottom: -30px;
+  }
+
+  .Navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 100px) and (max-width: 400px) {
+  .Navbar {
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .NavTitle {
+    margin-top: -10px;
+    margin-bottom: -30px;
+  }
+
+  .Navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .Navbar a {
+    font-size: 12.5px;
+  }
+}
