@@ -45,7 +45,7 @@ const Contact = () => {
                       target='_blank'
                     >
                       <span className={classes.LinkInIcon}>
-                        <i class='fab fa-linkedin'></i>
+                        <i className='fab fa-linkedin'></i>
                       </span>
                     </a>
                   </p>

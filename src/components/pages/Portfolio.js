@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 import classes from '../../styles/Portfolio.module.css';
 
@@ -42,7 +42,15 @@ const Portfolio = () => {
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </Card.Text>
-                      <Button variant='primary'>Go somewhere</Button>
+                      <button
+                        className={`${classes.Button} ${classes.LaunchBtn}`}
+                        variant='dark'
+                      >
+                        Launch Project
+                      </button>
+                      <button className={classes.Button} variant='dark'>
+                        See Code
+                      </button>
                     </Card.Body>
                   </Card>
                 </div>
@@ -59,7 +67,15 @@ const Portfolio = () => {
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </Card.Text>
-                      <Button variant='primary'>Go somewhere</Button>
+                      <button
+                        className={`${classes.Button} ${classes.LaunchBtn}`}
+                        variant='dark'
+                      >
+                        Launch Project
+                      </button>
+                      <button className={classes.Button} variant='dark'>
+                        See Code
+                      </button>
                     </Card.Body>
                   </Card>
                 </div>
@@ -76,7 +92,15 @@ const Portfolio = () => {
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </Card.Text>
-                      <Button variant='primary'>Go somewhere</Button>
+                      <button
+                        className={`${classes.Button} ${classes.LaunchBtn}`}
+                        variant='dark'
+                      >
+                        Launch Project
+                      </button>
+                      <button className={classes.Button} variant='dark'>
+                        See Code
+                      </button>
                     </Card.Body>
                   </Card>
                 </div>
@@ -99,7 +123,15 @@ const Portfolio = () => {
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </Card.Text>
-                      <Button variant='primary'>Go somewhere</Button>
+                      <button
+                        className={`${classes.Button} ${classes.LaunchBtn}`}
+                        variant='dark'
+                      >
+                        Launch Project
+                      </button>
+                      <button className={classes.Button} variant='dark'>
+                        See Code
+                      </button>
                     </Card.Body>
                   </Card>
                 </div>
@@ -116,7 +148,15 @@ const Portfolio = () => {
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </Card.Text>
-                      <Button variant='primary'>Go somewhere</Button>
+                      <button
+                        className={`${classes.Button} ${classes.LaunchBtn}`}
+                        variant='dark'
+                      >
+                        Launch Project
+                      </button>
+                      <button className={classes.Button} variant='dark'>
+                        See Code
+                      </button>
                     </Card.Body>
                   </Card>
                 </div>
@@ -133,7 +173,15 @@ const Portfolio = () => {
                         Some quick example text to build on the card title and
                         make up the bulk of the card's content.
                       </Card.Text>
-                      <Button variant='primary'>Go somewhere</Button>
+                      <button
+                        className={`${classes.Button} ${classes.LaunchBtn}`}
+                        variant='dark'
+                      >
+                        Launch Project
+                      </button>
+                      <button className={classes.Button} variant='dark'>
+                        See Code
+                      </button>
                     </Card.Body>
                   </Card>
                 </div>

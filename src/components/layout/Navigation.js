@@ -48,7 +48,7 @@ const Navigation = ({ title }) => {
                 target='_blank'
                 title='Resume'
               >
-                <i class='fas fa-file-pdf'></i>
+                <i className='fas fa-file-pdf'></i>
               </a>
             </li>
             {/* <li>
