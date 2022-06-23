@@ -12,41 +12,29 @@
   text-align: center;
 }
 
-.ImgDiv {
+.CardContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.CardDiv {
+  margin-bottom: 60px;
+}
+
+/* .CardDiv:hover {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+} */
+
+.CardWidth {
+  width: 18rem;
+}
+
+/* .ImgDiv {
   margin-right: 20px;
   margin-bottom: 20px;
-}
-
-.ProjectName {
-  font-family: 'Oxygen', sans-serif;
-  font-weight: 700;
-}
-
-.SeeMoreBtn {
-  letter-spacing: 1px;
-  background-color: var(--primary) !important;
-  color: #ffffff !important;
-  padding: 6px 12px;
-  border-radius: 0.25rem;
-  border: 1px solid var(--primary) !important;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  /* box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.25); */
-}
-
-.SeeMoreBtn:hover {
-  background-color: #ffffff !important;
-  color: var(--primary) !important;
-  text-decoration: none;
-}
-
-.SeeMoreBtn:active {
-  background-color: var(--primary) !important;
-  color: #ffffff !important;
-  border: 1px solid var(--primary) !important;
-  outline: none !important;
-  box-shadow: none !important;
-}
+} */
 
 /* ===== MEDIA QUERIES ===== */
 
@@ -55,10 +43,10 @@
     background-color: red;
   } */
 
-  .ImgDiv {
+  /* .ImgDiv {
     width: 100%;
     height: auto;
-  }
+  } */
 }
 
 @media screen and (min-width: 769px) and (max-width: 980px) {
@@ -66,10 +54,21 @@
     background-color: yellow;
   } */
 
-  .ImgDiv {
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 28rem;
+  }
+
+  /* .ImgDiv {
     width: 100%;
     height: auto;
-  }
+  } */
 }
 
 @media screen and (min-width: 641px) and (max-width: 768px) {
@@ -77,10 +76,21 @@
     background-color: steelblue;
   } */
 
-  .ImgDiv {
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 28rem;
+  }
+
+  /* .ImgDiv {
     width: 100%;
     height: auto;
-  }
+  } */
 }
 
 @media screen and (min-width: 551px) and (max-width: 640px) {
@@ -88,10 +98,21 @@
     background-color: brown;
   } */
 
-  .ImgDiv {
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 28rem;
+  }
+
+  /* .ImgDiv {
     width: 100%;
     height: auto;
-  }
+  } */
 }
 
 @media screen and (min-width: 471px) and (max-width: 550px) {
@@ -99,10 +120,21 @@
     background-color: salmon;
   } */
 
-  .ImgDiv {
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 25rem;
+  }
+
+  /* .ImgDiv {
     width: 100%;
     height: auto;
-  }
+  } */
 }
 
 @media screen and (min-width: 431px) and (max-width: 470px) {
@@ -110,10 +142,21 @@
     background-color: black;
   } */
 
-  .ImgDiv {
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 20rem;
+  }
+
+  /* .ImgDiv {
     width: 100%;
     height: auto;
-  }
+  } */
 }
 
 @media screen and (min-width: 401px) and (max-width: 430px) {
@@ -121,10 +164,21 @@
     background-color: burlywood;
   } */
 
-  .ImgDiv {
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 20rem;
+  }
+
+  /* .ImgDiv {
     width: 100%;
     height: auto;
-  }
+  } */
 }
 
 @media screen and (min-width: 100px) and (max-width: 400px) {
@@ -132,8 +186,19 @@
     background-color: pink;
   } */
 
-  .ImgDiv {
+  .CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .CardWidth {
+    width: 18rem;
+  }
+
+  /* .ImgDiv {
     width: 100%;
     height: auto;
-  }
+  } */
 }

@@ -124,7 +124,7 @@ header:before {
   /* Source: https://www.pexels.com/photo/silver-imac-turned-on-41227/ */
   /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 100%, transparent),
     url('https://images.pexels.com/photos/41227/pexels-photo-41227.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.55) 100%, transparent),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 100%, transparent),
     url('../img/bg1.webp');
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
